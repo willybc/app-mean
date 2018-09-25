@@ -13,9 +13,9 @@ export class QuestionComponent implements OnInit {
     'Esta es una nueva pregunta sobre Android',
     'Miren, tengo una duda con una aplicacion',
     new Date,
-    'devicon-android-plain'
+    'devicon-android-plain colored'
   );
-  
+
   constructor() { }
 
   ngOnInit() {

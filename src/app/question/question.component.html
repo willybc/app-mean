@@ -1,7 +1,25 @@
-<h2>{{ question.title }}</h2>
 
-<p>{{ question.description }}</p>
+                    <div class="card" style="width: auto">
+                            <div class="card-body">
+                                <!-- Avatar -->
+                                <div class="card-notice">
+                                    <div class="card-avatar">
+                                        <i class="{{question.icon}}"></i> 
+                                    </div>
 
-<i class="{{}question.icon}"></i>
+                                    <div class="card-title">
+                                        <h5 class="card-title-title">{{ question.title }}</h5>
+                                        <small class="card-text text-muted">Willy Bardales - {{question.createdAt}}</small>
+                                    </div>
+                                </div>
+                                <!-- /Avatar -->
 
-<p>{{question.createdAt}}</p>
+                                <div class="desc">
+                                        <p class="card-subtitle mb-2">{{ question.description }}</p>
+                                        <a href="#" class="card-link">Card link</a>
+                                        <a href="#" class="card-link">Another link</a>
+                                </div>
+                                
+                                </div>
+                    </div>
+
